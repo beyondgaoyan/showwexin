@@ -1,0 +1,748 @@
+[ 2014-09-09T22:13:57+08:00 ] 127.0.0.1 /index.php?s=/admin/Update/delcache.html
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000836s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000131s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000581s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000121s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000052s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000131s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined variable: meta_title /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Admin/7448bc5b6c7ede42a8f022f98e8cc17b.php 第 5 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016510s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000093s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000054s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000115s ]
+
+[ 2014-09-09T22:14:00+08:00 ] 127.0.0.1 /index.php?s=/Admin/Config/group.html
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000709s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000115s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000662s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000089s ]
+SQL: SELECT `id`,`name`,`title`,`extra`,`value`,`remark`,`type` FROM `wp_config` WHERE ( `status` = 1 ) AND ( `group` = 1 ) ORDER BY sort  [ RunTime:0.000143s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000033s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000149s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000243s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.024492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024588s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000017s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000047s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2014-09-09T22:14:00+08:00 ] 127.0.0.1 /index.php?s=/Admin/update/getRemoteVersion.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000035s ]
+SQL: SHOW COLUMNS FROM `wp_menu` [ RunTime:0.000789s ]
+SQL: SELECT * FROM `wp_menu` WHERE ( `pid` = 0 ) AND ( `hide` = 0 ) AND ( `is_dev` = 0 ) ORDER BY sort asc  [ RunTime:0.000180s ]
+SQL: SELECT `id` FROM `wp_menu` WHERE ( url like '%Update/getRemoteVersion%' ) LIMIT 1   [ RunTime:0.000151s ]
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000871s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000112s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000598s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000096s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000064s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000174s ]
+
+[ 2014-09-09T22:14:00+08:00 ] 127.0.0.1 /index.php?s=/Admin/Model/index.html
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000656s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000535s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `wp_model` [ RunTime:0.000972s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_model` WHERE ( `status` > -1 ) LIMIT 1   [ RunTime:0.000159s ]
+SQL: SELECT `id`,`name`,`title`,`extend`,`relation`,`need_pk`,`field_sort`,`field_group`,`attribute_list`,`template_list`,`template_add`,`template_edit`,`list_grid`,`list_row`,`search_key`,`search_list`,`create_time`,`update_time`,`status`,`engine_type` FROM `wp_model` WHERE ( `status` > -1 ) ORDER BY `name` asc LIMIT 0,20   [ RunTime:0.000349s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000036s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000173s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000293s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.039376s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039478s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000021s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000084s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000042s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000073s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000160s ]
+
+[ 2014-09-09T22:14:01+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/index.html
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000686s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000107s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000514s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000078s ]
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000588s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_member` WHERE ( `status` >= 0 ) AND ( `nickname` LIKE '%%' ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`public_count`,`extra_field` FROM `wp_member` WHERE ( `status` >= 0 ) AND ( `nickname` LIKE '%%' ) ORDER BY uid desc LIMIT 0,20   [ RunTime:0.000121s ]
+SQL: SELECT `uid`,count(id) as total,sum(is_creator) as num FROM `wp_member_public_link` WHERE ( `uid` IN ('1') ) GROUP BY uid  [ RunTime:0.000085s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/gaoyan/站点/other/展会微信端/web/Application/Admin/Controller/UserController.class.php 第 41 行.
+NOTIC: [8] Undefined variable: linkArr /Users/gaoyan/站点/other/展会微信端/web/Application/Admin/Controller/UserController.class.php 第 48 行.
+NOTIC: [8] Undefined variable: linkArr /Users/gaoyan/站点/other/展会微信端/web/Application/Admin/Controller/UserController.class.php 第 48 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000140s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.022660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000029s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000108s ]
+
+[ 2014-09-09T22:14:03+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/add.html
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000677s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000499s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000075s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000124s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.016492s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000018s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000033s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000058s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000131s ]
+
+[ 2014-09-09T22:14:07+08:00 ] 127.0.0.1 /index.php?s=/admin/PublicGroup/PublicGroup.html
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000848s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000616s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000088s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000596s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000133s ]
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.001101s ]
+SQL: SELECT `group_id`,count(id) as public_count FROM `wp_member_public` GROUP BY group_id  [ RunTime:0.000120s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/gaoyan/站点/other/展会微信端/web/Application/Admin/Controller/PublicGroupController.class.php 第 28 行.
+SQL: SHOW COLUMNS FROM `wp_model` [ RunTime:0.001001s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `name` = 'member_public_group' ) LIMIT 1   [ RunTime:0.000167s ]
+SQL: SHOW COLUMNS FROM `wp_attribute` [ RunTime:0.001011s ]
+SQL: SELECT `name` FROM `wp_attribute` WHERE ( model_id=13 )  [ RunTime:0.000388s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000147s ]
+SQL: SHOW COLUMNS FROM `wp_member_public_group` [ RunTime:0.000789s ]
+SQL: SELECT `id`,`title`,`addon_status` FROM `wp_member_public_group` ORDER BY id desc LIMIT 0,10   [ RunTime:0.000110s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_member_public_group` LIMIT 1   [ RunTime:0.000090s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/gaoyan/站点/other/展会微信端/web/Application/Admin/Controller/PublicGroupController.class.php 第 35 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000227s ]
+NOTIC: [8] Undefined variable: add_url /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Admin/ed98367a04bc7d6eeb61b0a105ec94a0.php 第 97 行.
+NOTIC: [8] Undefined variable: del_url /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Admin/ed98367a04bc7d6eeb61b0a105ec94a0.php 第 98 行.
+NOTIC: [8] Undefined variable: search_url /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Admin/ed98367a04bc7d6eeb61b0a105ec94a0.php 第 104 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021553s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021636s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000077s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000051s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000110s ]
+
+[ 2014-09-09T22:14:09+08:00 ] 127.0.0.1 /index.php?s=/Admin/PublicGroup/add/model/13.html
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000803s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000105s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000499s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000073s ]
+NOTIC: [8] Undefined index: _addons /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 576 行.
+SQL: SHOW COLUMNS FROM `wp_model` [ RunTime:0.000679s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000104s ]
+SQL: SELECT `extend` FROM `wp_model` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000082s ]
+SQL: SHOW COLUMNS FROM `wp_attribute` [ RunTime:0.000856s ]
+SQL: SELECT * FROM `wp_attribute` WHERE ( `model_id` = 13 )  [ RunTime:0.000252s ]
+SQL: SELECT `field_sort` FROM `wp_model` WHERE ( `id` = 13 ) LIMIT 1   [ RunTime:0.000090s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000734s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000160s ]
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: extra /Users/gaoyan/站点/other/展会微信端/web/Application/Admin/Controller/PublicGroupController.class.php 第 160 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000032s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000195s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000297s ]
+NOTIC: [8] Undefined variable: post_url /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Admin/d996efa3d8468440c853dccf0a05320c.php 第 101 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Admin/d996efa3d8468440c853dccf0a05320c.php 第 110 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Admin/d996efa3d8468440c853dccf0a05320c.php 第 110 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.039183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039260s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000028s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000050s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000106s ]
+
+[ 2014-09-09T22:14:16+08:00 ] 127.0.0.1 /index.php?s=/Admin/User/index.html
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.001042s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000149s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000813s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000127s ]
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000972s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_member` WHERE ( `status` >= 0 ) AND ( `nickname` LIKE '%%' ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`public_count`,`extra_field` FROM `wp_member` WHERE ( `status` >= 0 ) AND ( `nickname` LIKE '%%' ) ORDER BY uid desc LIMIT 0,20   [ RunTime:0.000123s ]
+SQL: SELECT `uid`,count(id) as total,sum(is_creator) as num FROM `wp_member_public_link` WHERE ( `uid` IN ('1') ) GROUP BY uid  [ RunTime:0.000097s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/gaoyan/站点/other/展会微信端/web/Application/Admin/Controller/UserController.class.php 第 41 行.
+NOTIC: [8] Undefined variable: linkArr /Users/gaoyan/站点/other/展会微信端/web/Application/Admin/Controller/UserController.class.php 第 48 行.
+NOTIC: [8] Undefined variable: linkArr /Users/gaoyan/站点/other/展会微信端/web/Application/Admin/Controller/UserController.class.php 第 48 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000027s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.020741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020845s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000022s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000088s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000034s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000055s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000120s ]
+
+[ 2014-09-09T22:14:17+08:00 ] 127.0.0.1 /index.php?s=/admin/PublicGroup/PublicAdmin.html
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000840s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000129s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000567s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000091s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000771s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000190s ]
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000896s ]
+SQL: SELECT `group_id`,count(id) as public_count FROM `wp_member_public` GROUP BY group_id  [ RunTime:0.000102s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/gaoyan/站点/other/展会微信端/web/Application/Admin/Controller/PublicGroupController.class.php 第 178 行.
+SQL: SHOW COLUMNS FROM `wp_model` [ RunTime:0.000880s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `name` = 'member_public' ) LIMIT 1   [ RunTime:0.000142s ]
+SQL: SHOW COLUMNS FROM `wp_attribute` [ RunTime:0.000942s ]
+SQL: SELECT `name` FROM `wp_attribute` WHERE ( model_id=11 )  [ RunTime:0.000257s ]
+SQL: SELECT * FROM `wp_model` WHERE ( `id` = 11 ) LIMIT 1   [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000789s ]
+SQL: SELECT `id`,`public_name`,`group_id`,`headface_url`,`token`,`uid`,`is_use` FROM `wp_member_public` ORDER BY id desc LIMIT 0,20   [ RunTime:0.000090s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_member_public` LIMIT 1   [ RunTime:0.000069s ]
+NOTIC: [2] Invalid argument supplied for foreach() /Users/gaoyan/站点/other/展会微信端/web/Application/Admin/Controller/PublicGroupController.class.php 第 199 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000031s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000142s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000236s ]
+NOTIC: [8] Undefined variable: del_url /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Admin/ed98367a04bc7d6eeb61b0a105ec94a0.php 第 98 行.
+NOTIC: [8] Undefined variable: search_url /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Admin/ed98367a04bc7d6eeb61b0a105ec94a0.php 第 104 行.
+INFO: Run Behavior\ParseTemplate [ RunTime:0.021700s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021785s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000079s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000077s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000174s ]
+
+[ 2014-09-09T22:14:18+08:00 ] 127.0.0.1 /index.php?s=/home/user/login.html
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000922s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000121s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+NOTIC: [8] Undefined index: from /Users/gaoyan/站点/other/展会微信端/web/Application/Home/Controller/UserController.class.php 第 107 行.
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000029s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000122s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined index: _addons /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/b171d71961885d3bf0f7a9b2e0867b01.php 第 40 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000951s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000185s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000983s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = -1 ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000786s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = null ) AND ( `mp_id` = null ) LIMIT 1   [ RunTime:0.000131s ]
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+INFO: [ pageFooter ] --START--
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = -1 ) LIMIT 1   [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000913s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'BaiduStatistics' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000153s ]
+INFO: Run BaiduStatistics [ RunTime:0.002538s ]
+INFO: [ pageFooter ] --END-- [ RunTime:0.002607s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.026820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026881s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000020s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000076s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000024s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2014-09-09T22:14:20+08:00 ] 127.0.0.1 /index.php?s=/home/user/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000305s ]
+INFO: [ action_begin ] --START--
+INFO: [ action_begin ] --END-- [ RunTime:0.000031s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 135 行.
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.001412s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 0 ) LIMIT 1   [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_ucenter_member` [ RunTime:0.000725s ]
+SQL: SELECT * FROM `wp_ucenter_member` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000156s ]
+SQL: UPDATE `wp_ucenter_member` SET `last_login_time`=1410272060,`last_login_ip`='2130706433' WHERE ( `id` = 1 ) [ RunTime:0.000145s ]
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000709s ]
+SQL: SELECT `uid`,`nickname`,`sex`,`birthday`,`qq`,`score`,`login`,`reg_ip`,`reg_time`,`last_login_ip`,`last_login_time`,`status`,`public_count`,`extra_field` FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000160s ]
+SQL: UPDATE `wp_member` SET `login`=`login`+1,`last_login_time`=1410272060,`last_login_ip`='2130706433' WHERE ( `uid` = 1 ) [ RunTime:0.000140s ]
+SQL: SHOW COLUMNS FROM `wp_ucenter_member` [ RunTime:0.000838s ]
+SQL: SELECT `id`,`username`,`email`,`mobile`,`status` FROM `wp_ucenter_member` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000132s ]
+SQL: SHOW COLUMNS FROM `wp_action` [ RunTime:0.000777s ]
+SQL: SELECT * FROM `wp_action` WHERE ( `name` = 'user_login' ) LIMIT 1   [ RunTime:0.000115s ]
+
+[ 2014-09-09T22:14:20+08:00 ] 127.0.0.1 /index.php?s=/Home/MemberPublic/add.html
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000950s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000139s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000657s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000115s ]
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000833s ]
+SQL: SELECT `public_count` FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SELECT sum(is_creator) FROM `wp_member_public_link` WHERE ( uid='1' ) LIMIT 1   [ RunTime:0.000103s ]
+SQL: SELECT `extend` FROM `wp_model` WHERE ( `id` = 11 ) LIMIT 1   [ RunTime:0.000114s ]
+SQL: SHOW COLUMNS FROM `wp_attribute` [ RunTime:0.000978s ]
+SQL: SELECT * FROM `wp_attribute` WHERE ( `model_id` = 11 )  [ RunTime:0.000390s ]
+SQL: SELECT `field_sort` FROM `wp_model` WHERE ( `id` = 11 ) LIMIT 1   [ RunTime:0.000159s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000034s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000245s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000351s ]
+NOTIC: [8] Undefined variable: member_public_list /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 66 行.
+NOTIC: [8] Undefined index: _addons /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 98 行.
+NOTIC: [8] Undefined index: _controller /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 98 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.001084s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000863s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000921s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = -1 ) LIMIT 1   [ RunTime:0.000160s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 1 ) AND ( `mp_id` = null ) LIMIT 1   [ RunTime:0.000129s ]
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_addon_category` [ RunTime:0.000807s ]
+SQL: SELECT * FROM `wp_addon_category` ORDER BY sort asc, id desc  [ RunTime:0.000175s ]
+NOTIC: [8] Undefined index: home_index_main /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 106 行.
+NOTIC: [8] Undefined index: home_creditconfig_lists /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 107 行.
+NOTIC: [8] Undefined index: home_keyword /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 108 行.
+NOTIC: [8] Undefined index: home_cascade /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 109 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: Chat /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: Wecome /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: UserCenter /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: CustomMenu /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: Card /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: Leaflets /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: CustomReply /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: Tongji /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: Vote /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: Suggestions /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: Survey /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: Coupon /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: Scratch /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: Exam /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: Test /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: YouaskService /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: Robot /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: Extensions /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: WeiSite /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Undefined index: Forms /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 125 行.
+NOTIC: [8] Undefined index: HelloWorld /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 125 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 125 行.
+NOTIC: [8] Undefined index: Juhe /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 125 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 125 行.
+NOTIC: [8] Undefined index: Diy /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 125 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 125 行.
+NOTIC: [8] Undefined variable: post_url /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 150 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 165 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 165 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 165 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 165 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 165 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 165 行.
+NOTIC: [8] Undefined offset: 1 /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 1239 行.
+NOTIC: [8] Undefined offset: 1 /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 1239 行.
+NOTIC: [8] Undefined offset: 1 /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 1239 行.
+NOTIC: [8] Undefined offset: 1 /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 1239 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 165 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 165 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 165 行.
+NOTIC: [8] Use of undefined constant value - assumed 'value' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/c9059ee4065f465f8f9ac3308297cb76.php 第 165 行.
+INFO: [ pageFooter ] --START--
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = -1 ) LIMIT 1   [ RunTime:0.000138s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000779s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'BaiduStatistics' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000159s ]
+INFO: Run BaiduStatistics [ RunTime:0.002335s ]
+INFO: [ pageFooter ] --END-- [ RunTime:0.002402s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.074982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.075047s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000105s ]
+
+[ 2014-09-09T22:14:21+08:00 ] 127.0.0.1 /
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.001374s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000669s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000124s ]
+
+[ 2014-09-09T22:14:21+08:00 ] 127.0.0.1 /index.php?s=/home/index/main.html
+SQL: SHOW COLUMNS FROM `wp_member` [ RunTime:0.000829s ]
+SQL: SELECT * FROM `wp_member` WHERE ( `uid` = 1 ) LIMIT 1   [ RunTime:0.000301s ]
+NOTIC: [8] Undefined index: uid /Users/gaoyan/站点/other/展会微信端/web/ThinkPHP/Library/Think/Controller.class.php 第 140 行.
+SQL: SHOW COLUMNS FROM `wp_member_public_link` [ RunTime:0.000748s ]
+SQL: SELECT * FROM `wp_member_public_link` WHERE ( uid=1 ) ORDER BY is_use desc  [ RunTime:0.000146s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000991s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `type` = 1 ) ORDER BY id DESC LIMIT 0,15   [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `wp_member_public` [ RunTime:0.000795s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = -1 ) LIMIT 1   [ RunTime:0.000148s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 1 ) AND ( `mp_id` = null ) LIMIT 1   [ RunTime:0.000089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wp_addons` WHERE ( `type` = 1 ) LIMIT 1   [ RunTime:0.000105s ]
+INFO: [ view_begin ] --START--
+INFO: [ view_begin ] --END-- [ RunTime:0.000037s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplace [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined variable: member_public_list /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 66 行.
+NOTIC: [8] Undefined index: _addons /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 98 行.
+NOTIC: [8] Undefined index: _controller /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 98 行.
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000872s ]
+SQL: SELECT * FROM `wp_addons` WHERE ( `status` = 1 ) AND ( `type` = 1 )  [ RunTime:0.000219s ]
+SQL: SELECT * FROM `wp_member_public` WHERE ( `token` = -1 ) LIMIT 1   [ RunTime:0.000128s ]
+SQL: SELECT `addon_status` FROM `wp_member_public_link` WHERE ( `uid` = 1 ) AND ( `mp_id` = null ) LIMIT 1   [ RunTime:0.000109s ]
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+NOTIC: [8] Undefined variable: addons /Users/gaoyan/站点/other/展会微信端/web/Application/Common/Common/function.php 第 465 行.
+SQL: SHOW COLUMNS FROM `wp_addon_category` [ RunTime:0.000710s ]
+SQL: SELECT * FROM `wp_addon_category` ORDER BY sort asc, id desc  [ RunTime:0.000137s ]
+NOTIC: [8] Undefined index: home_memberpublic /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 105 行.
+NOTIC: [8] Undefined index: home_creditconfig_lists /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 107 行.
+NOTIC: [8] Undefined index: home_keyword /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 108 行.
+NOTIC: [8] Undefined index: home_cascade /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 109 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Chat /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Wecome /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: UserCenter /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: CustomMenu /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Card /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Leaflets /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: CustomReply /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Tongji /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Vote /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Suggestions /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Survey /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Coupon /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Scratch /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Exam /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Test /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: YouaskService /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Robot /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Extensions /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: WeiSite /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Undefined index: Forms /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 116 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Undefined index: HelloWorld /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Undefined index: Juhe /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Use of undefined constant name - assumed 'name' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Undefined index: Diy /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Use of undefined constant addons_url - assumed 'addons_url' /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 125 行.
+NOTIC: [8] Undefined variable: model /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 154 行.
+NOTIC: [8] Undefined variable: model /Users/gaoyan/站点/other/展会微信端/web/Runtime/Cache/Home/413161ce60857f3111b8e40283dda29e.php 第 156 行.
+INFO: [ pageFooter ] --START--
+SQL: SELECT `addon_config` FROM `wp_member_public` WHERE ( `token` = -1 ) LIMIT 1   [ RunTime:0.000118s ]
+SQL: SHOW COLUMNS FROM `wp_addons` [ RunTime:0.000881s ]
+SQL: SELECT `config` FROM `wp_addons` WHERE ( `name` = 'BaiduStatistics' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000149s ]
+INFO: Run BaiduStatistics [ RunTime:0.002428s ]
+INFO: [ pageFooter ] --END-- [ RunTime:0.002497s ]
+INFO: Run Behavior\ParseTemplate [ RunTime:0.043200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCache [ RunTime:0.000019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000073s ]
+INFO: [ view_end ] --START--
+INFO: [ view_end ] --END-- [ RunTime:0.000027s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000049s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000108s ]
+
